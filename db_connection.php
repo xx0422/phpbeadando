@@ -1,8 +1,9 @@
 <?php
-$host = 'localhost';
-$db = 'hangman_game';
-$user = 'root';
-$password = '';
+
+$host = 'sql301.infinityfree.com'; 
+$db = 'if0_38033744_hangman_game'; 
+$user = 'if0_38033744'; 
+$password = 'Yutrfokaj568277'; 
 $dsn = "mysql:host=$host;dbname=$db;charset=utf8";
 
 try {
@@ -12,3 +13,4 @@ try {
     die("Adatbázis kapcsolat sikertelen: " . $e->getMessage());
 }
 ?>
+
